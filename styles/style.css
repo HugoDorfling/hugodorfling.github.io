@@ -1201,6 +1201,7 @@ p, li {
     left: 0;
     right: 0;
     height: fit-content;
+    background-color: black;
   }
 .page-banner__intro {
     font-weight: 300;
