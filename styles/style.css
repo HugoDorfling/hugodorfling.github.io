@@ -576,7 +576,6 @@ p, li {
 .main-page-content {
   box-shadow: 1px 1px 80px rgba(0, 0, 0, 0.2);
   padding: 40px;
-  text-align: center;
   background-color: whitesmoke;
 }
 
@@ -584,13 +583,85 @@ p, li {
   text-align: center;
 }
 
+.main-page-content h2 {
+  text-align: center;
+}
+
+.good {
+  background:linear-gradient(to right top, rgb(255, 255, 255), rgba(230, 230, 230, 0.651));
+  border-radius: 10px;
+}
+
+.basic {
+  background:linear-gradient(to left top, rgb(235, 231, 231), rgb(211, 211, 211));
+  color: white;
+  border-radius: 10px;
+}
+
+.tech-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+}
+
+.tech-card {
+  box-shadow: 1px 1px 1.5px rgba(0, 0, 0, .5);
+  max-width: 150px;
+}
+
+.tech-card:hover {
+  box-shadow: 1px 2px 15px rgba(0, 0, 0, .5);
+  transform: scale(1.01);
+}
+
+.tech-card i {
+  max-width: 60px;
+  max-height: 75px;
+}
+
+.tech-icon {
+  background-color: #222;
+  max-width: 60px;
+  max-height: 60px;
+  width: 60px;
+  height: 60px;
+}
+
+.tech-card-image {
+  background-color: #222;
+  padding: 30px;
+}
+
+.tech-card li {
+  background-color: white;
+  color: #222;
+}
+
+.main-page-content h3 {
+  text-align: center;
+  text-shadow: 1px 1px 1.4px rgba(0, 0, 0, 0.89);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  filter: drop-shadow(1px 1px 15px rgba(0,0,0,0.3));
+}
+
 .main-page-content p {
   text-align: center;
   font-weight: 400;
 }
 
+.main-page-content ul {
+  border: 1px solid rgb(39, 39, 39);
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
 .main-page-content li {
   list-style: none;
+  text-align: center;
 }
 
 .main-heading {
@@ -981,11 +1052,22 @@ p, li {
       padding-bottom: 0;
       top: 0
   }
+
 }
 
 @media (max-width: 1280px) {
   .btn--white {
     margin-top: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tech-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tech-card {
+    margin: 20px;
   }
 }
 
@@ -1161,6 +1243,8 @@ p, li {
   text-decoration: none;
   font-weight: 300;
   font-size: medium;
+  outline: none;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.9);
 }
 
 @media (min-width: 1280px) {
@@ -1596,9 +1680,17 @@ body.admin-bar .search-overlay {
   }
 @media (min-width: 1280px) {
 .full-width-split__one .full-width-split__inner {
-        float: right
+        float: right;
     }
   }
+
+.full-width {
+  background: linear-gradient(to left, rgb(159, 248, 226), rgb(255, 255, 255));
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 .full-width-split__two {
     flex: 1;
     background: linear-gradient(to right, rgb(255, 159, 159), rgb(255, 255, 255));
