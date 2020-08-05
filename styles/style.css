@@ -1071,25 +1071,6 @@ p, li {
   }
 }
 
-.site-header__search-trigger {
-    cursor: pointer;
-    color: #FFF;
-    font-size: 1.2rem;
-    position: absolute;
-    top: 6px;
-    right: 16px;
-  }
-@media (min-width: 530px) {
-.site-header__search-trigger {
-      top: 4px;
-      font-size: 1.4rem
-  }
-  }
-@media (min-width: 1280px) {
-.site-header__search-trigger {
-      display: none
-  }
-  }
 .site-header__menu-trigger {
     color: #FFF;
     cursor: pointer;
@@ -1110,8 +1091,8 @@ p, li {
   }
   }
 @media (min-width: 1280px) {
-.site-header__menu-trigger {
-      display: none
+.site-header__menu-trigger.fa.fa-bars {
+      display: none;
   }
   }
 .site-header__util {
