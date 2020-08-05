@@ -190,9 +190,9 @@ button:-moz-focusring,
 }
 
 .icon-div img {
-  width: 100%;
+  width: 50%;
   height: auto;
-  max-width: 300px;
+  max-width: 200px;
   -webkit-animation: rotate 13s ease-in-out infinite ;
   -moz-animation: rotate 13s linear infinite;
   animation: rotate 13s linear infinite;
@@ -360,13 +360,13 @@ p, li {
   word-wrap: break-word;
 }
 .container {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 16px;
   position: relative;
 }
 .container--narrow {
-  max-width: 1150px;
+  max-width: 1280px;
 }
 .section-break {
   border: none;
@@ -489,7 +489,7 @@ p, li {
   top: 1px;
   margin-left: 20px;
 }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .search-trigger {
     display: inline-block;
     top: 6px
@@ -543,7 +543,7 @@ p, li {
 .one-sixth {
   padding-bottom: 1.6rem;
 }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
   .row {
     margin-right: -50px;
   }
@@ -588,6 +588,10 @@ p, li {
 .main-page-content p {
   text-align: center;
   font-weight: 400;
+}
+
+.main-page-content li {
+  list-style: none;
 }
 
 .main-heading {
@@ -966,7 +970,7 @@ p, li {
       transform: translateY(0);
       visibility: visible;
     }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .site-header__menu {
       visibility: visible;
       opacity: 1;
@@ -978,7 +982,14 @@ p, li {
       padding-bottom: 0;
       top: 0
   }
+}
+
+@media (max-width: 1280px) {
+  .btn--white {
+    margin-top: 30px;
   }
+}
+
 .site-header__search-trigger {
     cursor: pointer;
     color: #FFF;
@@ -993,7 +1004,7 @@ p, li {
       font-size: 1.4rem
   }
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .site-header__search-trigger {
       display: none
   }
@@ -1017,7 +1028,7 @@ p, li {
       font-size: 1.4rem
   }
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .site-header__menu-trigger {
       display: none
   }
@@ -1025,16 +1036,16 @@ p, li {
 .site-header__util {
     padding: 0 0 0 20px;
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .site-header__util {
       padding: 0;
-      float: right
+      float: right;
   }
   }
 .site-header__btn {
     margin-right: 20px;
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .site-header__btn {
       float: left
   }
@@ -1068,7 +1079,7 @@ p, li {
 .site-footer__col-one {
     text-align: center;
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .site-footer__col-one {
       text-align: left;
       width: 33%;
@@ -1080,7 +1091,7 @@ p, li {
     width: 85%;
     margin: 0 auto;
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .site-footer__col-two-three-group {
       text-align: left;
       float: left;
@@ -1103,7 +1114,7 @@ p, li {
     clear: both;
     text-align: center;
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .site-footer__col-four {
       padding-top: 0;
       margin: 0;
@@ -1128,7 +1139,7 @@ p, li {
 .main-navigation ul:after {
     clear: both;
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .main-navigation {
     float: left;
     margin-right: 20px
@@ -1137,7 +1148,7 @@ p, li {
 .main-navigation li {
   list-style: none;
 }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .main-navigation li {
     float: left;
     padding-left: 20px
@@ -1153,7 +1164,7 @@ p, li {
   font-size: medium;
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .main-navigation a {
     display: inline-block;
     padding: 0
@@ -1161,7 +1172,7 @@ p, li {
   }
 .main-navigation .current-menu-item a,
 .main-navigation a:hover {
-  color: #11124d;
+  color: yellow;
 }
 .page-banner {
   background-color: #fff;
@@ -1228,7 +1239,7 @@ p, li {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .hero-slider__interior {
       padding-top: 130px;
       padding-bottom: 130px
@@ -1246,10 +1257,11 @@ p, li {
     padding: 40px;
     color: #fff;
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .hero-slider__overlay {
       width: 50%
   }
+
   }
 .slick-dots {
   z-index: 100;
@@ -1261,7 +1273,7 @@ p, li {
   text-align: center;
   top: 15px;
 }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .slick-dots {
     top: 50px
 }
@@ -1301,7 +1313,7 @@ p, li {
   text-align: center;
   top: 15px;
 }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .glide__bullets {
     top: 50px
 }
@@ -1363,7 +1375,7 @@ body.admin-bar .search-overlay {
     font-size: 1.8rem;
     color: #F95738;
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .search-overlay__icon {
       font-size: 2.5rem
   }
@@ -1398,7 +1410,7 @@ body.admin-bar .search-overlay {
       font-size: 2.1rem
   }
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .search-overlay__close {
       top: 26px;
       font-size: 2.8rem
@@ -1429,7 +1441,7 @@ body.admin-bar .search-overlay {
 
 }
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .search-term {
     width: 80%;
     font-size: 3rem
@@ -1567,7 +1579,7 @@ body.admin-bar .search-overlay {
     .generic-content h5 {font-size: 1.9rem}
     .generic-content h6 {font-size: 1.15rem}
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .full-width-split {
     display: flex
 }
@@ -1576,29 +1588,29 @@ body.admin-bar .search-overlay {
 .full-width-split__one {
     flex: 1;
     padding: 1.6rem 16px;
-    background: linear-gradient(to right, rgb(207, 227, 255), rgba(255, 244, 244, 0.6));
+    background: linear-gradient(to left, rgb(159, 248, 226), rgb(255, 255, 255));
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .full-width-split__one {
       padding: 40px
   }
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .full-width-split__one .full-width-split__inner {
         float: right
     }
   }
 .full-width-split__two {
     flex: 1;
-    background: linear-gradient(to left, rgb(255, 214, 238), rgba(255, 238, 238, 0.6));
+    background: linear-gradient(to right, rgb(255, 159, 159), rgb(255, 255, 255));
     padding: 1.6rem 16px;
   }
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 .full-width-split__two {
       padding: 40px
   }
   }
-@media (min-width: 1350px) {
+@media (min-width: 1280px) {
 .full-width-split__inner {
       width: 610px
   }
@@ -1645,7 +1657,7 @@ body.admin-bar .search-overlay {
     opacity: .75;
   }
 .event-summary__date--orange {
-    background-color: #ffbd06;
+    background-color: #ff6b6b;
   }
 .event-summary__month {
     display: block;

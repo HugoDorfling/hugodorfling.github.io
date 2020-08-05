@@ -19,9 +19,9 @@
         <div class="site-header__menu group">
           <nav class="main-navigation">
             <ul>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html" style="border-bottom: 3px solid yellow;">Home</a></li>
               <li><a href="aboutme.html">About me</a></li>
-              <li><a href="analysis.html">Analysis</a></li>
+              <li><a href="analysis.html" >Analysis</a></li>
               <li><a href="design.html">Design</a></li>
               <li><a href="development.html">Development</a></li>
               <li><a href="improvement.html">Improvement</a></li>
@@ -35,8 +35,12 @@
       </div>
     </header>
 
-    <div class="page-banner" style="background: linear-gradient(to right, rgba(255,23,32 ,0.8), rgba(0,30,255,0.9)); background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgb(207, 41, 29)), color-stop(50%,rgb(3, 182, 71)), color-stop(100%,#08F));background: -webkit-linear-gradient(to right, rgba(255,23,32 ,0.8), rgba(0,30,255,0.9)); background: -moz-linear-gradient(to right, rgba(255,23,32 ,0.8), rgba(0,30,255,0.9));">
-      <div class="page-banner__bg-image" ></div>
+    <div class="page-banner" style="background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);" >
+      <div class="page-banner__bg-image" style="background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);"></div>
 
         <div class="hero-slider">
 
@@ -52,7 +56,7 @@
                     <p class="t-center">Doing proper research and <br />  requirements
                       gathering is crucial <br />  to save costs <br /> 
                       and ensure you build  <br /> exactly what is needed.</p>
-                    <p class="t-center no-margin"><a href="#" class="btn btn--white">Learn more</a></p>
+                    <p class="t-center no-margin"><a href="analysis.html" class="btn btn--white">Learn more</a></p>
                   </div>
                 </div>
               </div>
@@ -68,7 +72,7 @@
                       intuitive and natural flow <br />
                       <span style="font-size:large">for the best user experience. </span>
                     </p>
-                    <p class="t-center no-margin"><a href="#" class="btn btn--white">See my portfolio</a></p>
+                    <p class="t-center no-margin"><a href="design.html" class="btn btn--white">See my portfolio</a></p>
                   </div>
                 </div>
               </div>
@@ -81,7 +85,7 @@
                     <h2 class="headline headline--medium t-center">Development</h2>
                     <p class="t-center">I love to use technology to <br /><strong>solve problems.</strong> <br /></p>
                     <p class="t-center">I'm a <strong>Full Stack  <br /> Software Developer</strong></p>
-                    <p class="t-center no-margin"><a href="#" class="btn btn--white">See my projects</a></p>
+                    <p class="t-center no-margin"><a href="development.html" class="btn btn--white">See my projects</a></p>
                   </div>
                 </div>
               </div>
@@ -95,7 +99,7 @@
                     <p class="t-center">I follow the agile methodology and<br />
                     continually getting feedback  <br />  is crucial 
                     while constantly <br />shipping enhancements.</p>
-                    <p class="t-center no-margin"><a href="#" class="btn btn--white">Learn more</a></p>
+                    <p class="t-center no-margin"><a href="improvement.html" class="btn btn--white">Learn more</a></p>
                   </div>
                 </div>
               </div>
@@ -165,12 +169,47 @@
         <div class="full-width-split__inner">
           <h2 class="headline headline--small-plus t-center">Latest Projects</h2>
 
-          <p class="t-center no-margin"><a href="#" class="btn btn--blue">See all my projects</a></p>
+          <div class="event-summary">
+            <a class="event-summary__date t-center" href="#">
+              <span class="event-summary__month">-Angular</span>
+              <span class="event-summary__month">-ASP.NET CORE MVC</span>
+              <span class="event-summary__day">C#</span>
+            </a>
+            <div class="event-summary__content">
+              <h5 class="event-summary__title headline headline--tiny"><a href="#">House Listing App</a></h5>
+              <p> Upload images of your house and list it for rent or for sale. <a href="#" class="nu c-orange">See more</a></p>
+            </div>
+          </div>
+          <div class="event-summary">
+            <a class="event-summary__date t-center" href="#">
+              <span class="event-summary__month">-React</span>
+              <span class="event-summary__month">-NodeJS</span>
+              <span class="event-summary__day">JS</span>
+            </a>
+            <div class="event-summary__content">
+              <h5 class="event-summary__title headline headline--tiny"><a href="#">SportStore App</a></h5>
+              <p>A classic ecommerce shopping experience, add to cart and checkout. Admin section to add products and manage orders. <a href="#" class="nu c-orange">See more</a></p>
+            </div>
+          </div>
+
+          <p class="t-center no-margin"><a href="development.html" class="btn btn--blue">See all my projects</a></p>
         </div>
       </div>
       <div class="full-width-split__two">
         <div class="full-width-split__inner">
-          <h2 class="headline headline--small-plus t-center">My Blog Posts</h2>
+          <h2 class="headline headline--small-plus t-center">Latest Blog Posts</h2>
+
+          <div class="event-summary">
+            <a class="event-summary__date event-summary__date--orange t-center" href="#">
+              <span class="event-summary__month"></span>
+              <span class="event-summary__day text-small">T.B.A</span>
+            </a>
+            <div class="event-summary__content">
+              <h5 class="event-summary__title blue headline headline--tiny"><a href="#">Coming soon!</a></h5>
+              <p class="c-dark">I will soon be starting my own blog sharing my experience and thoughts as a developer on the latest.</p>
+            </div>
+          </div>
+        
 
           <p class="t-center no-margin"><a href="#" class="btn btn--yellow">Coming soon</a></p>
         </div>
@@ -186,26 +225,18 @@
               <img src="./assets/images/logo.png" style="width: 150px;" alt="hugodorfling logo" />
           </div>
 
-          <div class="site-footer__col-two-three-group">
-            <div class="site-footer__col-two">
+          <div class="site-footer__col-one">
+            <div class="site-footer__col-one">
               <h3 class="headline headline--small">Navigation</h3>
               <nav class="nav-list">
                 <ul>
-                  <li><a href="#">About Me</a></li>
-                  <li><a href="#">Analysis</a></li>
-                  <li><a href="#">Design</a></li>
-
-                </ul>
-              </nav>
-            </div>
-
-            <div class="site-footer__col-three">
-              <h3 class="headline headline--small">Links</h3>
-              <nav class="nav-list">
-                <ul>
-                  <li><a href="#">Development</a></li>
-                  <li><a href="#">Improvement</a></li>
-                  <li><a href="#">Contact me</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutme.html">About Me</a></li>
+                  <li><a href="analysis.html">Analysis</a></li>
+                  <li><a href="design.html">Design</a></li>
+                  <li><a href="development.html">Development</a></li>
+                  <li><a href="improvement.html">Improvement</a></li>
+                  <li><a href="contact.html">Contact me</a></li>
                 </ul>
               </nav>
             </div>
@@ -216,19 +247,16 @@
             <nav>
               <ul class="min-list social-icons-list group">
                 <li>
-                  <a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="https://www.facebook.com/hugo.dorfling/" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                  <a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="https://www.youtube.com/channel/UCCxRhPChZ8EC_aw1y2MuVug" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                  <a href="#" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                  <a href="https://www.linkedin.com/in/leslie-hugo-dorfling/" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                  <a href="#" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="https://www.instagram.com/hugodorfling/" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </li>
               </ul>
             </nav>
