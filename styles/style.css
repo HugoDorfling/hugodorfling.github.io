@@ -190,8 +190,7 @@ button:-moz-focusring,
 }
 
 .icon-div img {
-  width: 50%;
-  height: auto;
+  max-height: 200px;
   max-width: 200px;
   -webkit-animation: rotate 13s ease-in-out infinite ;
   -moz-animation: rotate 13s linear infinite;
