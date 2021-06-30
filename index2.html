@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hugo Dorfling - Full Stack Developer</title>
+    <link rel="shortcut icon" href="./assets/images/icon-fav.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://kit.fontawesome.com/a46ec66dbc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="logo float-left">
+          <a href="index.html"><img src="./assets/images/logo.png" alt="hugodorfling logo" /></a>
+        </h1>
+        <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
+        <div class="site-header__menu group">
+          <nav class="main-navigation">
+            <ul>
+              <li><a href="index.html" style="border-bottom: 3px solid yellow;">Home</a></li>
+              <li><a href="aboutme.html">About me</a></li>
+              <li><a href="analysis.html" >Analysis</a></li>
+              <li><a href="design.html">Design</a></li>
+              <li><a href="development.html">Development</a></li>
+              <li><a href="improvement.html">Improvement</a></li>
+              <li><a href="contact.html">Contact me</a></li>
+            </ul>
+          </nav>
+          <div class="site-header__util">
+            <a href="./assets/docs/Hugo Dorfling CV_Webversion.pdf" download="Curriculum Vitae Hugo Dorfling-2020" class="btn btn--med btn--white float-left push-right">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-banner" style="background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);" >
+      <div class="page-banner__bg-image" style="background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);"></div>
+
+        <div class="hero-slider">
+
+          <div data-glide-el="track" class="glide__track">
+            <div class="glide__slides">
+              <div class="hero-slider__slide" style="background-image: url(./assets/images/analysis-banner.png);">
+                <div class="hero-slider__interior container">
+                  <div class="hero-slider__overlay">
+                    <div class="icon-div">
+                      <img class="icon-img" src="./assets/images/icon-white-glow.png" alt="icon" />
+                    </div>
+                    <h2 class="headline headline--medium t-center">Analysis</h2>
+                    <p class="t-center">Doing proper research and <br />  requirements
+                      gathering<br /> is crucial   to save costs <br /> 
+                      and ensure you build  <br /> exactly what is needed.</p>
+                    <p class="t-center no-margin"><a href="analysis.html" class="btn btn--white">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-slider__slide" style="background-image: url(./assets/images/design-banner.png);">
+                <div class="hero-slider__interior container">
+                  <div class="hero-slider__overlay">
+                    <div class="icon-div">
+                      <img class="icon-img" src="./assets/images/icon-white-glow.png" alt="icon" />
+                    </div>
+                    <h2 class="headline headline--medium t-center">Design</h2>
+                    <p class="t-center">I strive to create <br /> <strong><i>visually stunning</i></strong> <br />
+                      designs with a great focus<br />  on 
+                      intuitive and natural flow <br />
+                      <strong>for the best user experience.</strong> 
+                    </p>
+                    <p class="t-center no-margin"><a href="design.html" class="btn btn--white">See my portfolio</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-slider__slide" style="background-image: url(./assets/images/development-banner.png);">
+                <div class="hero-slider__interior container">
+                  <div class="hero-slider__overlay">
+                    <div class="icon-div">
+                      <img class="icon-img" src="./assets/images/icon-white-glow.png" alt="icon" />
+                    </div>
+                    <h2 class="headline headline--medium t-center">Development</h2>
+                    <p class="t-center">I love to use technology to <br /><strong>solve problems.</strong> <br /></p>
+                    <p class="t-center">I'm a <strong>Full Stack  <br /> Software Developer</strong></p>
+                    <p class="t-center no-margin"><a href="development.html" class="btn btn--white">See my projects</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-slider__slide" style="background-image: url(./assets/images/improvement-banner.png);">
+                <div class="hero-slider__interior container">
+                  <div class="hero-slider__overlay">
+                    <div class="icon-div">
+                      <img class="icon-img" src="./assets/images/icon-white-glow.png" alt="icon" />
+                    </div>
+                    <h2 class="headline headline--medium t-center">Improvement</h2>
+                    <p class="t-center">I follow the <br />agile methodology and <br/>
+                    continually getting feedback  <br />  is crucial 
+                    while constantly <br />shipping enhancements.</p>
+                    <p class="t-center no-margin"><a href="improvement.html" class="btn btn--white">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="main-page-content">
+        <h1 class="main-heading">Designer, Full Stack Developer & Technical Product Manager</h1>
+        <div style="font-weight: 300; color: white; background: linear-gradient(to right, rgb(83, 83, 83), rgb(31, 31, 31)); padding: 50px;" class="welcome-div">
+         
+            <h1>Hello there 👋</h1>
+            <h2>I'm Hugo and I am dedicated to creatively analyse, design and invent 
+            technology solutions that solve real problems.
+          </h2>
+          <h4>I care passionately about providing tangible results, without sacrificing artistry and elegant design.</h4>
+          <h4 style="font-weight: 300; text-align: center;">I also really love the "abstract and logical universe of Computer Science".</h4>
+          <h4>My persistent drive towards growth and knowledge motivates me to learn new technologies, adapt and grow, with a tremendous pace!</h4>
+          <h4 style="font-weight: 300; text-align: center;">I really value progress.</h4>
+          <h4>I am focused on leaving a legacy and living well examined life.</h4>
+        </div>
+          <h2>Tech Stack:</h2>
+          
+          <ul style="box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.6);">
+            <h3 style="font-weight: 200; background:linear-gradient(to left top, rgba(155, 235, 124, 0.849), rgb(6, 73, 0)); border: 1px solid green;"><i>Programming Languages:</i></h3> 
+              <div class="good">
+                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Good understanding</h3>
+                <div class="tech-div">
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffiles.softicons.com%2Fdownload%2Fsystem-icons%2Fwindows-8-metro-icons-by-dakirby309%2Fpng%2F512x512%2FApplications%2FHTML5.png&f=1&nofb=1" class="tech-icon" />
+                    </div>
+                    <li>HTML 5</li>
+                  </div>
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lucrei.com%2Fwp-content%2Fuploads%2F2014%2F07%2Fcss3.jpg&f=1&nofb=1" class="tech-icon" />
+                    </div>
+                    <li> CSS 3</li>
+                  </div>
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.bu2Qea4bfAcVPRyUefowAwHaHH%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+
+                    <li>C#</li>
+                  </div> 
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.postscapes.com%2Fwp-content%2Fuploads%2Fbb-plugin%2Fcache%2FMST8CKVShX8cHwVIZ_FUR42xQZAEpUOLiHTsWrcG0o-SKEjCIq1KhCGHshgxTlTJ0CaHlJpBZ3pbT7zlyRQyq-dzFosiw-circle.jpeg&f=1&nofb=1" class="tech-icon" />
+                    </div>
+                    <li>JavaScript</li>
+                  </div>      
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1*0ei2MOQxAzF7krm-v60wnQ.jpeg&f=1&nofb=1" class="tech-icon">
+                    </div>
+                    <li>TypeScript</li>
+                  </div>      
+                  
+
+                </div>
+
+              </div>
+              <div class="basic">
+                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Basic understanding</h3>
+                <div class="tech-div">
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://image.freepik.com/free-icon/sql-file-format-symbol_318-45406.jpg" class="tech-icon" />
+                    </div>
+                    <li>SQL</li>
+                  </div>      
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.PIfFax5WMlnpYkIAY42bfwAAAA%26pid%3DApi&f=1" class="tech-icon">
+                    </div>
+                    <li>PHP</li>
+                  </div>      
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ha-Y6Wxu2-4Memmv5QKyCgHaHa%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+
+                    <li>C</li>
+                  </div> 
+
+                </div>
+
+              </div>
+
+          </ul>
+
+          <ul style="box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.6);">
+            <h3 style="font-weight: 400; background:linear-gradient(to left top, rgba(124, 235, 211, 0.849), rgb(2, 88, 145)); border: 1px solid green;"><i>Frontend Frameworks & Libraries:</i></h3> 
+              <div class="good">
+                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Good understanding</h3>
+                <div class="tech-div">
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.i1yreXvK0kGrS9_uy5qKHQHaHa%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+                    <li>React (Redux)</li>
+                  </div>
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.e9zH-4YsKjySvs2RNhe7rwHaHa%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+                    <li>Angular</li>
+                  </div>      
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Nhwvll4m1Jc3wjjmi2OGFgHaGZ%26pid%3DApi&f=1" class="tech-icon">
+                    </div>
+                    <li>Bootstrap</li>
+                  </div>      
+                </div>
+
+              </div>
+              <div class="basic">
+                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Basic understanding</h3>
+                <div class="tech-div">
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.nJVTQT2rFMlWKMcFWGF25QHaHa%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+                    <li>JQuery</li>
+                  </div>      
+                </div>
+
+              </div>
+
+          </ul>
+
+          <ul style="box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.6);">
+            <h3 style="font-weight: 400; background:linear-gradient(to left top, rgba(77, 0, 64, 0.849), rgb(177, 50, 92)); border: 1px solid rgb(61, 0, 34);"><i>Backend Frameworks:</i></h3> 
+              <div class="good">
+                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Good understanding</h3>
+                <div class="tech-div">
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.EAoqvbRTdBGwXWPuwwgKZwHaHa%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+                    <li>ASP.NET Core</li>
+                  </div>        
+                </div>
+
+              </div>
+              <div class="basic">
+                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Basic understanding</h3>
+                <div class="tech-div">
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.d2zLEjERsrs1Rzk_95QU9AAAAA%26pid%3DApi&f=1" class="tech-icon" style="max-width: 120px; width: 90px;" />
+                    </div>
+                    <li>Node JS</li>
+                  </div>      
+                </div>
+
+              </div>
+
+          </ul>
+
+
+          <ul style="box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.6);">
+            <h3 style="font-weight: 400; 
+            background:linear-gradient(to left top, rgb(242, 255, 54), 
+            rgb(250, 155, 11)); border: 1px solid rgb(61, 0, 34);">
+            <i>Other Interests:</i></h3> 
+                <div class="tech-div">
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EkgijsdtZJIImkKnnrDgZQHaHa%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+                    <li>AWS</li>
+                  </div> 
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.AEHoDSMQr9h5i4xR1Cx7hgAAAA%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+                    <li>GraphQL</li>
+                  </div>
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7kx2CABxc38topzfJ_vZsQAAAA%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+                    <li>REST</li>
+                  </div>
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.4S1O4bcrZhWDAC9MZwkk9AHaHC%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+                    <li>WordPress</li>
+                  </div>
+
+                </div>
+                <div class="tech-div">
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.4K7Qtd99ssg1NFad_CiH5QAAAA%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+                    <li>Unity</li>
+                  </div>   
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.cR9B_x_QarTgI_Lx-sHEugHaHa%26pid%3DApi&f=1" class="tech-icon" />
+                    </div>
+                    <li>Xamarin</li>
+                  </div>
+                  <div class="tech-card">
+                    <div class="tech-card-image" style=" padding: 10px; padding-top:35px; padding-bottom:25px;">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.xDi2csEAWxu95IEkaNdFUQHaEk%26pid%3DApi&f=1"
+                       class="tech-icon"  style="width: 100px; max-width: 100px;" />
+                    </div>
+                    <li>React Native</li>
+                  </div>
+                  <div class="tech-card">
+                    <div class="tech-card-image">
+                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.yr0dffCoED9Zj3KVJM9D8AHaHa%26pid%3DApi&f=1" 
+                      class="tech-icon" />
+                    </div>
+                    <li>Linux</li>
+                  </div>   
+                </div>
+
+          </ul>
+      </div>
+    </div>
+
+    <div class="full-width-split group">
+      <div class="full-width-split__one">
+        <div class="full-width-split__inner">
+          <h2 class="headline headline--small-plus t-center">Latest Projects</h2>
+
+          <div class="event-summary">
+            <a class="event-summary__date t-center" href="#">
+              <span class="event-summary__month">-Angular</span>
+              <span class="event-summary__month">-ASP.NET CORE MVC</span>
+              <span class="event-summary__day">C#</span>
+            </a>
+            <div class="event-summary__content">
+              <h5 class="event-summary__title headline headline--tiny"><a href="#">House Listing App</a></h5>
+              <p> Upload images of your house and list it for rent or for sale. <a href="#" class="nu c-orange">See more</a></p>
+            </div>
+          </div>
+          <div class="event-summary">
+            <a class="event-summary__date t-center" href="#">
+              <span class="event-summary__month">-React</span>
+              <span class="event-summary__month">-NodeJS</span>
+              <span class="event-summary__day">JS</span>
+            </a>
+            <div class="event-summary__content">
+              <h5 class="event-summary__title headline headline--tiny"><a href="#">SportStore App</a></h5>
+              <p>A classic ecommerce shopping experience, add to cart and checkout. Admin section to add products and manage orders. <a href="#" class="nu c-orange">See more</a></p>
+            </div>
+          </div>
+
+          <p class="t-center no-margin"><a href="development.html" class="btn btn--blue">See all my projects</a></p>
+        </div>
+      </div>
+      <div class="full-width-split__two">
+        <div class="full-width-split__inner">
+          <h2 class="headline headline--small-plus t-center">Latest Blog Posts</h2>
+
+          <div class="event-summary">
+            <a class="event-summary__date event-summary__date--orange t-center" href="#">
+              <span class="event-summary__month"></span>
+              <span class="event-summary__day text-small">T.B.A</span>
+            </a>
+            <div class="event-summary__content">
+              <h5 class="event-summary__title blue headline headline--tiny"><a href="#">Coming soon!</a></h5>
+              <p class="c-dark">I will soon be starting my own blog sharing my experience and thoughts as a developer on the latest.</p>
+            </div>
+          </div>
+        
+
+          <p class="t-center no-margin"><a href="#" class="btn btn--yellow">Coming soon</a></p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer class="site-footer">
+      <div class="site-footer__inner container container--narrow">
+        <div class="group">
+          <div class="site-footer__col-one">
+              <img src="./assets/images/logo.png" style="width: 150px;" alt="hugodorfling logo" />
+          </div>
+
+          <div class="site-footer__col-one">
+            <div class="site-footer__col-one">
+              <h3 class="headline headline--small">Navigation</h3>
+              <nav class="nav-list">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="aboutme.html">About Me</a></li>
+                  <li><a href="analysis.html">Analysis</a></li>
+                  <li><a href="design.html">Design</a></li>
+                  <li><a href="development.html">Development</a></li>
+                  <li><a href="improvement.html">Improvement</a></li>
+                  <li><a href="contact.html">Contact me</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="site-footer__col-four">
+            <h3 class="headline headline--small">Connect With Me</h3>
+            <nav>
+              <ul class="min-list social-icons-list group">
+                <li>
+                  <a href="https://www.facebook.com/hugo.dorfling/" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCCxRhPChZ8EC_aw1y2MuVug" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/leslie-hugo-dorfling/" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/hugodorfling/" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="javascript/scripts-bundled.js"></script>
+  </body>
+</html>

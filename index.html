@@ -1,440 +1,579 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hugo Dorfling - Full Stack Developer</title>
-    <link rel="shortcut icon" href="./assets/images/icon-fav.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i" rel="stylesheet" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <script src="https://kit.fontawesome.com/a46ec66dbc.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <h1 class="logo float-left">
-          <a href="index.html"><img src="./assets/images/logo.png" alt="hugodorfling logo" /></a>
-        </h1>
-        <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
-        <div class="site-header__menu group">
-          <nav class="main-navigation">
-            <ul>
-              <li><a href="index.html" style="border-bottom: 3px solid yellow;">Home</a></li>
-              <li><a href="aboutme.html">About me</a></li>
-              <li><a href="analysis.html" >Analysis</a></li>
-              <li><a href="design.html">Design</a></li>
-              <li><a href="development.html">Development</a></li>
-              <li><a href="improvement.html">Improvement</a></li>
-              <li><a href="contact.html">Contact me</a></li>
-            </ul>
-          </nav>
-          <div class="site-header__util">
-            <a href="./assets/docs/Hugo Dorfling CV_Webversion.pdf" download="Curriculum Vitae Hugo Dorfling-2020" class="btn btn--med btn--white float-left push-right">Download CV</a>
-          </div>
-        </div>
-      </div>
-    </header>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
 
-    <div class="page-banner" style="background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);" >
-      <div class="page-banner__bg-image" style="background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);"></div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <div class="hero-slider">
+  <title>Hugo Dorfling - Full Stack Developer</title>
 
-          <div data-glide-el="track" class="glide__track">
-            <div class="glide__slides">
-              <div class="hero-slider__slide" style="background-image: url(./assets/images/analysis-banner.png);">
-                <div class="hero-slider__interior container">
-                  <div class="hero-slider__overlay">
-                    <div class="icon-div">
-                      <img class="icon-img" src="./assets/images/icon-white-glow.png" alt="icon" />
-                    </div>
-                    <h2 class="headline headline--medium t-center">Analysis</h2>
-                    <p class="t-center">Doing proper research and <br />  requirements
-                      gathering<br /> is crucial   to save costs <br /> 
-                      and ensure you build  <br /> exactly what is needed.</p>
-                    <p class="t-center no-margin"><a href="analysis.html" class="btn btn--white">Learn more</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="hero-slider__slide" style="background-image: url(./assets/images/design-banner.png);">
-                <div class="hero-slider__interior container">
-                  <div class="hero-slider__overlay">
-                    <div class="icon-div">
-                      <img class="icon-img" src="./assets/images/icon-white-glow.png" alt="icon" />
-                    </div>
-                    <h2 class="headline headline--medium t-center">Design</h2>
-                    <p class="t-center">I strive to create <br /> <strong><i>visually stunning</i></strong> <br />
-                      designs with a great focus<br />  on 
-                      intuitive and natural flow <br />
-                      <strong>for the best user experience.</strong> 
-                    </p>
-                    <p class="t-center no-margin"><a href="design.html" class="btn btn--white">See my portfolio</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="hero-slider__slide" style="background-image: url(./assets/images/development-banner.png);">
-                <div class="hero-slider__interior container">
-                  <div class="hero-slider__overlay">
-                    <div class="icon-div">
-                      <img class="icon-img" src="./assets/images/icon-white-glow.png" alt="icon" />
-                    </div>
-                    <h2 class="headline headline--medium t-center">Development</h2>
-                    <p class="t-center">I love to use technology to <br /><strong>solve problems.</strong> <br /></p>
-                    <p class="t-center">I'm a <strong>Full Stack  <br /> Software Developer</strong></p>
-                    <p class="t-center no-margin"><a href="development.html" class="btn btn--white">See my projects</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="hero-slider__slide" style="background-image: url(./assets/images/improvement-banner.png);">
-                <div class="hero-slider__interior container">
-                  <div class="hero-slider__overlay">
-                    <div class="icon-div">
-                      <img class="icon-img" src="./assets/images/icon-white-glow.png" alt="icon" />
-                    </div>
-                    <h2 class="headline headline--medium t-center">Improvement</h2>
-                    <p class="t-center">I follow the <br />agile methodology and <br/>
-                    continually getting feedback  <br />  is crucial 
-                    while constantly <br />shipping enhancements.</p>
-                    <p class="t-center no-margin"><a href="improvement.html" class="btn btn--white">Learn more</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
-          </div>
-        </div>
-    </div>
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <!-- web fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+  <!-- /web fonts -->
 
-    <div class="container">
-      <div class="main-page-content">
-        <h1 class="main-heading">Designer, Full Stack Developer & Technical Product Manager</h1>
-        <div style="font-weight: 300; color: white; background: linear-gradient(to right, rgb(83, 83, 83), rgb(31, 31, 31)); padding: 50px;" class="welcome-div">
-         
-            <h1>Hello there 👋</h1>
-            <h2>I'm Hugo and I am dedicated to creatively analyse, design and invent 
-            technology solutions that solve real problems.
-          </h2>
-          <h4>I care passionately about providing tangible results, without sacrificing artistry and elegant design.</h4>
-          <h4 style="font-weight: 300; text-align: center;">I also really love the "abstract and logical universe of Computer Science".</h4>
-          <h4>My persistent drive towards growth and knowledge motivates me to learn new technologies, adapt and grow, with a tremendous pace!</h4>
-          <h4 style="font-weight: 300; text-align: center;">I really value progress.</h4>
-          <h4>I am focused on leaving a legacy and living well examined life.</h4>
-        </div>
-          <h2>Tech Stack:</h2>
-          
-          <ul style="box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.6);">
-            <h3 style="font-weight: 200; background:linear-gradient(to left top, rgba(155, 235, 124, 0.849), rgb(6, 73, 0)); border: 1px solid green;"><i>Programming Languages:</i></h3> 
-              <div class="good">
-                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Good understanding</h3>
-                <div class="tech-div">
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffiles.softicons.com%2Fdownload%2Fsystem-icons%2Fwindows-8-metro-icons-by-dakirby309%2Fpng%2F512x512%2FApplications%2FHTML5.png&f=1&nofb=1" class="tech-icon" />
-                    </div>
-                    <li>HTML 5</li>
-                  </div>
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lucrei.com%2Fwp-content%2Fuploads%2F2014%2F07%2Fcss3.jpg&f=1&nofb=1" class="tech-icon" />
-                    </div>
-                    <li> CSS 3</li>
-                  </div>
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.bu2Qea4bfAcVPRyUefowAwHaHH%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
+  <!-- Favicon-->
+  <link rel="icon" 
+      type="image/ico" 
+      href="assets/images/icon_white_glow_Rmy_icon.ico">
+</head>
 
-                    <li>C#</li>
-                  </div> 
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.postscapes.com%2Fwp-content%2Fuploads%2Fbb-plugin%2Fcache%2FMST8CKVShX8cHwVIZ_FUR42xQZAEpUOLiHTsWrcG0o-SKEjCIq1KhCGHshgxTlTJ0CaHlJpBZ3pbT7zlyRQyq-dzFosiw-circle.jpeg&f=1&nofb=1" class="tech-icon" />
-                    </div>
-                    <li>JavaScript</li>
-                  </div>      
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1*0ei2MOQxAzF7krm-v60wnQ.jpeg&f=1&nofb=1" class="tech-icon">
-                    </div>
-                    <li>TypeScript</li>
-                  </div>      
-                  
+<body>
+  <!-- header -->
+  <header class="w3l-header">
+    <div class="hero-header-11">
+      <div class="hero-header-11-content">
+        <div class="container">
+          <nav class="navbar navbar-expand-xl navbar-light py-sm-2 py-1 px-0">
+            <!-- <a class="navbar-brand editContent" href="index.html">Mix</a> -->
+				 <a class="navbar-brand" href="#index.html">
+						<img src="./assets/images/logo.png" alt="Hugo Dorfling Logo" title="Hugo Dorfling" style="height:105px;" />
+				</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon fa fa-bars"></span>
+            </button>
 
-                </div>
-
-              </div>
-              <div class="basic">
-                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Basic understanding</h3>
-                <div class="tech-div">
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://image.freepik.com/free-icon/sql-file-format-symbol_318-45406.jpg" class="tech-icon" />
-                    </div>
-                    <li>SQL</li>
-                  </div>      
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.PIfFax5WMlnpYkIAY42bfwAAAA%26pid%3DApi&f=1" class="tech-icon">
-                    </div>
-                    <li>PHP</li>
-                  </div>      
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ha-Y6Wxu2-4Memmv5QKyCgHaHa%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-
-                    <li>C</li>
-                  </div> 
-
-                </div>
-
-              </div>
-
-          </ul>
-
-          <ul style="box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.6);">
-            <h3 style="font-weight: 400; background:linear-gradient(to left top, rgba(124, 235, 211, 0.849), rgb(2, 88, 145)); border: 1px solid green;"><i>Frontend Frameworks & Libraries:</i></h3> 
-              <div class="good">
-                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Good understanding</h3>
-                <div class="tech-div">
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.i1yreXvK0kGrS9_uy5qKHQHaHa%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-                    <li>React (Redux)</li>
-                  </div>
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.e9zH-4YsKjySvs2RNhe7rwHaHa%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-                    <li>Angular</li>
-                  </div>      
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Nhwvll4m1Jc3wjjmi2OGFgHaGZ%26pid%3DApi&f=1" class="tech-icon">
-                    </div>
-                    <li>Bootstrap</li>
-                  </div>      
-                </div>
-
-              </div>
-              <div class="basic">
-                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Basic understanding</h3>
-                <div class="tech-div">
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.nJVTQT2rFMlWKMcFWGF25QHaHa%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-                    <li>JQuery</li>
-                  </div>      
-                </div>
-
-              </div>
-
-          </ul>
-
-          <ul style="box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.6);">
-            <h3 style="font-weight: 400; background:linear-gradient(to left top, rgba(77, 0, 64, 0.849), rgb(177, 50, 92)); border: 1px solid rgb(61, 0, 34);"><i>Backend Frameworks:</i></h3> 
-              <div class="good">
-                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Good understanding</h3>
-                <div class="tech-div">
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.EAoqvbRTdBGwXWPuwwgKZwHaHa%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-                    <li>ASP.NET Core</li>
-                  </div>        
-                </div>
-
-              </div>
-              <div class="basic">
-                <h3 style="font-weight: 300; color: #222; text-shadow: none;">Basic understanding</h3>
-                <div class="tech-div">
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.d2zLEjERsrs1Rzk_95QU9AAAAA%26pid%3DApi&f=1" class="tech-icon" style="max-width: 120px; width: 90px;" />
-                    </div>
-                    <li>Node JS</li>
-                  </div>      
-                </div>
-
-              </div>
-
-          </ul>
-
-
-          <ul style="box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.6);">
-            <h3 style="font-weight: 400; 
-            background:linear-gradient(to left top, rgb(242, 255, 54), 
-            rgb(250, 155, 11)); border: 1px solid rgb(61, 0, 34);">
-            <i>Other Interests:</i></h3> 
-                <div class="tech-div">
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EkgijsdtZJIImkKnnrDgZQHaHa%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-                    <li>AWS</li>
-                  </div> 
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.AEHoDSMQr9h5i4xR1Cx7hgAAAA%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-                    <li>GraphQL</li>
-                  </div>
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7kx2CABxc38topzfJ_vZsQAAAA%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-                    <li>REST</li>
-                  </div>
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.4S1O4bcrZhWDAC9MZwkk9AHaHC%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-                    <li>WordPress</li>
-                  </div>
-
-                </div>
-                <div class="tech-div">
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.4K7Qtd99ssg1NFad_CiH5QAAAA%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-                    <li>Unity</li>
-                  </div>   
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.cR9B_x_QarTgI_Lx-sHEugHaHa%26pid%3DApi&f=1" class="tech-icon" />
-                    </div>
-                    <li>Xamarin</li>
-                  </div>
-                  <div class="tech-card">
-                    <div class="tech-card-image" style=" padding: 10px; padding-top:35px; padding-bottom:25px;">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.xDi2csEAWxu95IEkaNdFUQHaEk%26pid%3DApi&f=1"
-                       class="tech-icon"  style="width: 100px; max-width: 100px;" />
-                    </div>
-                    <li>React Native</li>
-                  </div>
-                  <div class="tech-card">
-                    <div class="tech-card-image">
-                      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.yr0dffCoED9Zj3KVJM9D8AHaHa%26pid%3DApi&f=1" 
-                      class="tech-icon" />
-                    </div>
-                    <li>Linux</li>
-                  </div>   
-                </div>
-
-          </ul>
-      </div>
-    </div>
-
-    <div class="full-width-split group">
-      <div class="full-width-split__one">
-        <div class="full-width-split__inner">
-          <h2 class="headline headline--small-plus t-center">Latest Projects</h2>
-
-          <div class="event-summary">
-            <a class="event-summary__date t-center" href="#">
-              <span class="event-summary__month">-Angular</span>
-              <span class="event-summary__month">-ASP.NET CORE MVC</span>
-              <span class="event-summary__day">C#</span>
-            </a>
-            <div class="event-summary__content">
-              <h5 class="event-summary__title headline headline--tiny"><a href="#">House Listing App</a></h5>
-              <p> Upload images of your house and list it for rent or for sale. <a href="#" class="nu c-orange">See more</a></p>
-            </div>
-          </div>
-          <div class="event-summary">
-            <a class="event-summary__date t-center" href="#">
-              <span class="event-summary__month">-React</span>
-              <span class="event-summary__month">-NodeJS</span>
-              <span class="event-summary__day">JS</span>
-            </a>
-            <div class="event-summary__content">
-              <h5 class="event-summary__title headline headline--tiny"><a href="#">SportStore App</a></h5>
-              <p>A classic ecommerce shopping experience, add to cart and checkout. Admin section to add products and manage orders. <a href="#" class="nu c-orange">See more</a></p>
-            </div>
-          </div>
-
-          <p class="t-center no-margin"><a href="development.html" class="btn btn--blue">See all my projects</a></p>
-        </div>
-      </div>
-      <div class="full-width-split__two">
-        <div class="full-width-split__inner">
-          <h2 class="headline headline--small-plus t-center">Latest Blog Posts</h2>
-
-          <div class="event-summary">
-            <a class="event-summary__date event-summary__date--orange t-center" href="#">
-              <span class="event-summary__month"></span>
-              <span class="event-summary__day text-small">T.B.A</span>
-            </a>
-            <div class="event-summary__content">
-              <h5 class="event-summary__title blue headline headline--tiny"><a href="#">Coming soon!</a></h5>
-              <p class="c-dark">I will soon be starting my own blog sharing my experience and thoughts as a developer on the latest.</p>
-            </div>
-          </div>
-        
-
-          <p class="t-center no-margin"><a href="#" class="btn btn--yellow">Coming soon</a></p>
-        </div>
-      </div>
-    </div>
-
-
-
-    <footer class="site-footer">
-      <div class="site-footer__inner container container--narrow">
-        <div class="group">
-          <div class="site-footer__col-one">
-              <img src="./assets/images/logo.png" style="width: 150px;" alt="hugodorfling logo" />
-          </div>
-
-          <div class="site-footer__col-one">
-            <div class="site-footer__col-one">
-              <h3 class="headline headline--small">Navigation</h3>
-              <nav class="nav-list">
-                <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="aboutme.html">About Me</a></li>
-                  <li><a href="analysis.html">Analysis</a></li>
-                  <li><a href="design.html">Design</a></li>
-                  <li><a href="development.html">Development</a></li>
-                  <li><a href="improvement.html">Improvement</a></li>
-                  <li><a href="contact.html">Contact me</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-
-          <div class="site-footer__col-four">
-            <h3 class="headline headline--small">Connect With Me</h3>
-            <nav>
-              <ul class="min-list social-icons-list group">
-                <li>
-                  <a href="https://www.facebook.com/hugo.dorfling/" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li>
-                  <a href="https://www.youtube.com/channel/UCCxRhPChZ8EC_aw1y2MuVug" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#about">About</a>
                 </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/leslie-hugo-dorfling/" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#service">Services</a>
                 </li>
-                <li>
-                  <a href="https://www.instagram.com/hugodorfling/" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#gallery">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#contact">Contact</a>
                 </li>
               </ul>
-            </nav>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- //header -->
+  <!--  Main banner section -->
+  <section class="w3l-main-banner">
+    <div class="companies20-content">
+      <div class="companies-wrapper">
+        <div class="item">
+          <li>
+            <div class="slider-info banner-view">
+              <div class="banner-info container">
+                <h3 class="banner-text"><small>Hello, I’m</small><br>
+                  Hugo
+                </h3>
+                <p class="my-4 mb-5">Full Stack Developer, Graphic Designer & Product Manager</p><br>
+                <a href="#gallery" class="btn btn-primary theme-button mr-3">My Work</a>
+                <a href="#about" class="btn btn-outline-primary theme-button">Hire Me</a>
+              </div>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  //Main banner section -->
+  <!--  About section -->
+  <div class="w3l-about1 pt-5" id="about">
+    <div class="container pt-lg-3">
+      <h3 class="global-title">About Me</h3>
+      <div class="aboutgrids row">
+        <div class="col-lg-6 aboutgrid2">
+          <img src="assets/images/profile-pic.jpg" alt="about image" class="img-fluid circular drop-shadow" />
+        </div>
+        <div class="col-lg-6 aboutgrid1 my-lg-0 my-5">
+          <h4>Why hire me for your next project?</h4>
+          <p>I am dedicated to creatively analyse, design and invent technology solutions that solve real problems.
+            </p>
+            <p>I care passionately about providing tangible results, without sacrificing artistry and elegant design.</p>
+          <p>My persistent drive towards growth and knowledge motivates me to
+            learn new technologies, adapt and grow, with a tremendous pace!
+          </p>
+          <p>I really value progress.</p>
+          <p>
+            I am focused on leaving a legacy and living well examined life.</p>
+          <p>Let's have a chat?</p>
+
+          <a href="./assets/docs/Hugo Dorfling CV_Webversion.pdf" download class="btn btn-primary theme-button mr-3">Download CV</a>
+          
+          <a href="https://hugodorfling.github.io/aboutme.html" target="_Blank" class="btn btn-outline-primary p-3">More about me</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutbottom py-5">
+      <div class="container py-lg-3">
+        <div class="bottomgrids row">
+          <div class="col-lg-3 col-md-6 bottomgrid1 mt-lg-0 mt-0">
+            <h4>Analysis</h4>
+            <p>Studying BCom Informatics made me realize the importance of proper requirements gathering.
+              If you want to build products that customers love, you should spend time getting answers for the why before
+              thinking about how.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 bottomgrid1 mt-md-0 mt-5">
+            <h4 >Design</h4>
+            <p>I started freelancing when I was 13 years old, designing logos, banners and websites. I strive to create
+              visually stunning designs for the best user experience possible.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 bottomgrid1 mt-lg-0 mt-5">
+            <h4>Development</h4>
+            <p>Innovator and problem-solver at heart, I am constantly looking for my next challenge that I can solve.
+              I have fallen in love with technology which has empowered me to turn my dreams into real world solutions.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 bottomgrid1 mt-lg-0 mt-5">
+            <h4>Agile</h4>
+            <p>My experience in an agile environment has helped me ensure I am building products customers love, I embrace adaptive planning,
+              evolutionary development, early delivery and continual improvement. 
+            </p>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  //About section -->
+  <!--  services section -->
+  <section class="w3l-index6" id="service">
+    <div class="features-with-17_sur py-5">
+      <div class="container py-lg-3">
+        <h3 class="global-title my-title">My Skills</h3>
+        <div class="features-with-17-top_sur">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-4 skills">
+              <div class="features-with-17-right-tp_sur">
+                <div class="features-with-17-left1">
+                  <span class="fa fa-modx" aria-hidden="true"></span>
+                </div>
+                <div class="features-with-17-left2">
+                  <h6><a href="#url">Design</a></h6>
+                  <p>My main strengths are in Logo, Website and UI/UX design.</p>
+                  <p>I am familiar working with Adobe Illustrator, Adobe Photoshop, Inkscape and Figma.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-5 skills">
+              <div class="features-with-17-right-tp_sur">
+                <div class="features-with-17-left1">
+                  <span class="fa fa-podcast" aria-hidden="true"></span>
+                </div>
+                <div class="features-with-17-left2">
+                  <h6><a href="#url">Front End Development</a></h6>
+                  <p>I use HTML, CSS, JavaScript, jQuery for most basic websites.</p>
+                  <p>For large web applications, I prefer working with the Angular framework or React.</p>
+                  <p>I know my way around XAML for WPF applications too!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-lg-0 mt-5 skills">
+              <div class="features-with-17-right-tp_sur">
+                <div class="features-with-17-left1">
+                  <span class="fa fa-bar-chart" aria-hidden="true"></span>
+                </div>
+                <div class="features-with-17-left2">
+                  <h6><a href="#url">Back end Development</a> </h6>
+                  <p>I enjoy C# and the ASP.NET MVC framework and I am confident using JavaScript with NodeJS as an alternative for web applications.</p>
+                  <p>Using the .NET Framework for web (ASP.NET MVC), desktop (WPF) and mobile (Xamarin).</p>
+                  <p>I am a firm believer of assessing the best technology to solve the specific need.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
+  <!--  //services section -->
+  <section class="w3l-services2">
+    <div class="features-with-17_sur">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="my-lg-0 my-5 align-self-center features-with-17-right_sur">
+            <div class="features-with-17-right-tp_sur">
+              <div class="features-with-17-left1">
+                <span class="fa fa-laptop s4"></span>
+              </div>
+              <div class="features-with-17-left2">
+                <h6><a href="#url">Customer focused</a></h6>
+                <p>Doing thorough requirements elicitation, user research and real feedback focuses development efforts on what matters 
+                  most to the end user.</p>
+              </div>
+            </div>
+            <div class="features-with-17-right-tp_sur">
+              <div class="features-with-17-left1">
+                <span class="fa fa-database s5"></span>
+              </div>
+              <div class="features-with-17-left2">
+                <h6><a href="#url">Performance</a></h6>
+                <p>Response time, stability under load, scalability and reliability are constantly considered to assure quality.
+                </p>
+              </div>
+            </div>
+            <div class="features-with-17-right-tp_sur">
+              <div class="features-with-17-left1">
+                <span class="fa fa-lock s3"></span>
+              </div>
+              <div class="features-with-17-left2">
+                <h6><a href="#url">Security</a></h6>
+                <p>I believe in a proactive approach in mitigating vulnerabilities and threats before the wreak havoc.</p>
+              </div>
+            </div>
+            <div class="features-with-17-right-tp_sur">
+              <div class="features-with-17-left1">
+                <span class="fa fa-codepen s2"></span>
+              </div>
+              <div class="features-with-17-left2">
+                <h6><a href="#url">Elegant</a></h6>
+                <p>Keeping things simple, clear and focused on the best user experience for users to intuitively flow in the most creative ways.</p>
+              </div>
+            </div>
+            <div class="features-with-17-right-tp_sur">
+              <div class="features-with-17-left1">
+                <span class="fa fa-mobile s3"></span>
+              </div>
+              <div class="features-with-17-left2">
+                <h6><a href="#url">Responsiveness</a></h6>
+                <p>Mobile-first design is important to ensure a user experience which is responsive to any device or resolution.</p>
+              </div>
+            </div>
+            <div class="features-with-17-right-tp_sur">
+              <div class="features-with-17-left1">
+                <span class="fa fa-modx s2"></span>
+              </div>
+              <div class="features-with-17-left2">
+                <h6><a href="#url">Test Driven Development</a></h6>
+                <p>It's imperative to ensure quality software that consider edge cases and test thoroughly and minimize technical debt.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  Work gallery section -->
+  <div class="w3l-gallery2" id="gallery">
+    <div class="project-imgks py-5">
+      <div class="container py-lg-5">
+        <h3 class="global-title">Latest Works</h3>
+        <div class="row no-gutters masonry">
+          <div class="col-md-4 col-sm-6 brick">
+            <a href="https://github.com/HugoDorfling/ionic-react-bmi-calculator" target="_blank" class="js-img-viwer d-block">
+              <img src="assets/images/IonicBMICalculator.png"  class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>Ionic & React BMI Calculator</h4>
+                <p>An introductory learning project to Ionic with React.</p>
+                <h5>CHECK GITHUB</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 brick">
+            <a href="https://hugodorfling.github.io/house-app-angular-demo/" target="_blank" class="js-img-viwer d-block">
+              <img src="assets/images/house-app-example.png"  class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>Angular House Listing App</h4>
+                <p>A tutorial project to learn the basics of angular</p>
+                <h5>CLICK TO PREVIEW</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 brick">
+            <a href="https://github.com/HugoDorfling/ASPNET-MVCLogin-App" target="_blank" class="js-img-viwer d-block">
+              <img src="assets/images/MVCLoginApp.png" class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>MVC Login App</h4>
+                <p>ASP.NET MVC Web app with user authentication and updating of personal information stored in MSSQL database.</p>
+                <h5>CHECK GITHUB</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 brick">
+            <a href="https://github.com/HugoDorfling/DLL-Version-Tracker" target="_blank" class="js-img-viwer d-block"
+              data-id="hippopotamus">
+              <img src="assets/images/dllversiontracker.PNG" class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>DLL Version Tracker</h4>
+                <p>A WPF C# Application to track a .NET project's libraries and highlight those not up to date.</p>
+                <h5>CHECK GITHUB</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 brick">
+            <a href="https://hugodorfling.github.io/react-demo-sportstore" target="_blank" class="js-img-viwer d-block"
+              data-id="rhinoceros">
+              <img src="assets/images/sportstore.PNG" class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>React Sportstore App</h4>
+                <p>A classic online shopping experience with admin portal backend.</p>
+                <h5>CLICK TO PREVIEW</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 brick">
+            <a href="https://random-quotes-by-hugo.netlify.app/" target="_blank" class="js-img-viwer d-block"
+              >
+              <img src="assets/images/quote-generator.PNG" class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>React Random Quote Generator</h4>
+                <p>A basic React application that randomly selects quotes from an array of quotes.</p>
+                <h5>CLICK TO PREVIEW</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 brick">
+            <a href="https://github.com/HugoDorfling/graphql-booklist" target="_blank" class="js-img-viwer d-block"
+              data-id="bear">
+              <img src="assets/images/MERNG.jpg" class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>GraphQL Book List</h4>
+                <p>A tutorial project to learn GraphQL with MERN Stack.</p>
+                <h5>CHECK GITHUB</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 brick">
+            <a href="https://github.com/HugoDorfling/maps-app-react-leaflet" target="_blank" class="js-img-viwer d-block"
+              data-id="bear">
+              <img src="assets/images/reactmap.jpg" class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>React + Leaflet Maps app</h4>
+                <p>Post a message to your location on the map.</p>
+                <h5>CHECK GITHUB</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 brick">
+            <a href="https://codepen.io/hugodorfling/full/NWGYgLV" target="_blank" class="js-img-viwer d-block"
+              data-id="bear">
+              <img src="assets/images/markdown-previewer.PNG" class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>Markdown Previewer</h4>
+                <p>A freeCodeCamp.org React project to preview Github ReadMe Markdown.</p>
+                <h5>CLICK TO PREVIEW</h5>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 brick">
+            <a href="https://github.com/HugoDorfling/php-widget_corp" target="_blank" class="js-img-viwer d-block"
+              data-id="bear">
+              <img src="assets/images/php.jpg" class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>PHP Content Management</h4>
+                <p>Building a content management system in PHP.</p>
+                <h5>CHECK GITHUB</h5>
+              </div>
+            </a>
+          </div>
+           <div class="col-md-4 col-sm-6 brick">
+            <a href="https://weather-app-react-pwa-by-hugo.netlify.app" target="_blank" class="js-img-viwer d-block"
+              data-id="hippopotamus">
+              <img src="assets/images/weather-app.PNG" class="img-fluid project-img" alt="project-img" />
+              <div class="content-overlay"></div>
+              <div class="content-details fadeIn-top">
+                <h4>Weather App - React PWA</h4>
+                <p>ASP.NET MVC Web app with user authentication and updating of personal information stored in MSSQL database.</p>
+                <h5>CLICK TO PREVIEW</h5>
+              </div>
+            </a>
+          </div>
+ 
+        </div>
+        <div class="text-center">
+          <a href="https://github.com/HugoDorfling" class="follow-insta-button btn btn-secondary p-3 mt-5" target="_blank">
+            My Github Account
+          </a>
+          <a href="https://www.linkedin.com/in/leslie-hugo-dorfling/" class="follow-insta-button btn btn-secondary p-3 mt-5" target="_blank">
+            LinkedIn
+          </a>
+          <a href="https://codepen.io/hugodorfling" class="follow-insta-button btn btn-secondary p-3 mt-5" target="_blank">
+            CodePen.io Account
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  //Work gallery section -->
+  <!--  Intro video popup section -->
+  <section class="w3l-index5" id="intro">
+    <div class="new-block top-bottom">
+      <div class="container">
+        <div class="middle-section text-center">
+          <div class="section-width mb-5">
+            <h2>Dreaming, after all, is a form of planning.</h2>
+            <h3 style="color: var(--primary)"> - Gloria Steinem</h3>
+          </div>
+          <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center">
+            <span class="video-play-icon">
+              <span class="fa fa-play"></span>
+            </span>
+          </a>
 
-    <script src="javascript/scripts-bundled.js"></script>
-  </body>
+          <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+          <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+            <iframe src="https://www.youtube.com/embed/hhw00NqNIE4" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  //Intro video popup section -->
+  <!-- Contact section -->
+  <section class="w3l-contact py-5" id="contact">
+    <div class="container py-lg-3">
+      <h3 class="global-title">Drop me a Message</h3>
+      <div class="row">
+        <div class="col-md-8 contact-form">
+          <form action="https://formspree.io/xlepvbov" method="post">
+            <input type="text" class="form-control" name="w3lName" placeholder="Name" /><br />
+            <input type="email" class="form-control" name="w3lSender" placeholder="E-mail" /><br />
+            <input type="text" class="form-control" name="w3lSubject" placeholder="Subject" /><br />
+            <textarea class="form-control" name="w3lMessage" placeholder="Your Message" style="height:150px;"></textarea><br />
+            <button class="btn btn-primary theme-button" type="submit">Send</button>
+          </form>
+        </div>
+        <div class="col-md-4 mt-md-0 mt-5 w3-contact-address">
+          <b>Address:</b>
+          <p>Centurion,</p>
+          <p>Gauteng,</p>
+          <p>0157</p>
+          <p>South Africa.</p>
+          <br />
+          <b>Email:</b>
+          <p><a href="mailto:hugo@dorfling.org">hugo@dorfling.org</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //Contact section -->
+  <!-- freelance hire me -->
+  <section class="w3l-grid-quote py-5">
+    <div class="container py-lg-3">
+      <h6>I'am available for freelance projects.</h6>
+      <h3>Let's work together indeed!</h3>
+      <a href="#contact" class="btn btn-primary theme-button">Let's chat</a>
+    </div>
+  </section>
+  <!-- //freelance hire me -->
+  <!-- Footer -->
+  <footer class="w3l-footer">
+    <div id="footers14-block" class="py-3">
+      <div class="container">
+        <div class="footers14-bottom text-center">
+          <div class="copyright mt-1">
+            <p>© 2020 Hugo Dorfling. All Rights Reserved | Design by <a href="https://w3layouts.com/">W3Layouts</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up" aria-hidden="true"></span>
+    </button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- /move top -->
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Template JavaScript -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.popup-with-zoom-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+      });
+
+      $('.popup-with-move-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-slide-bottom'
+      });
+    });
+  </script>
+
+
+  <script src="assets/js/smartphoto.js"></script>
+  <script>
+    // document.addEventListener('DOMContentLoaded', function () {
+    //   const sm = new SmartPhoto(".js-img-viwer", {
+    //     showAnimation: false
+    //   });
+    //   // sm.destroy();
+    // });
+  </script>
+
+
+</body>
+
 </html>
